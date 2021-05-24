@@ -33,7 +33,7 @@ From docker hub
 docker run -p 8080:8080 afrofunkylover/echo-server
 ```
 
-# As Helm Chart
+### As Helm Chart
 
 Using the default helm chart.
 ```shell
