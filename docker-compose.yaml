@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  echo-server:
+    build: .
+    ports:
+      - 8080:8080
+    environment:
+      PORT: "8080"
+    image: afrofunkylover/echo-server:latest
+
