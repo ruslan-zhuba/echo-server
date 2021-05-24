@@ -37,6 +37,5 @@ docker run -p 8080:8080 afrofunkylover/echo-server
 
 Using the default helm chart.
 ```shell
-helm repo add afrofunkylover https://
-helm install stable afrofunkylover/echo-server
+helm install stable ./chart
 ```
